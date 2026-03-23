@@ -11,6 +11,9 @@ def test_dividir_resultado_decimal():
 
 def test_dividir_resultado_negativo():
     assert dividir(-3, 1) == -3
+    
+def test_dividir_resultado_positivo():
+    assert dividir(-3, 1) == 3
 
 def test_dividir_por_zero():
     # este teste vai falhar porque a função não trata divisão por zero
